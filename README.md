@@ -1,9 +1,47 @@
-•Java-Based Core Functionality: Developed a full-featured banking and ATM simulator in Java to emulate real-world banking operations, including secure account management and trans action workflows.
+💳 Banking Portal
+This project is a Java-based application simulating core banking and ATM functionalities through an interactive graphical interface, enabling users to manage their accounts seamlessly.
 
-• Interactive GUI: Built an intuitive and responsive graphical user interface using Java Swing, allowing users to easily create accounts, deposit and withdraw funds, manage PINs, and access mini statements.
+🔧 Key Features:
+Account Management:
 
-• Real-Time Transaction Processing: Integrated MySQL as a persistent data store to ensure secure, efficient, and real-time processing of all transactions and account activities.
+Enabled users to create new bank accounts by providing personal and account details.
 
-• Robust Error Handling: Implemented input validation and exception handling to maintain data integrity and provide clear user feedback during operations.
+Implemented secure login and authentication mechanisms to protect account access.
 
-• Object-Oriented Design: Applied principles of encapsulation, inheritance, and modular design to build maintainable, scalable application components.
+Transactions:
+
+Supported deposits, withdrawals, and balance inquiries through a user-friendly interface.
+
+Added mini-statement generation to allow users to view recent transactions.
+
+Integrated PIN management features for enhanced security.
+
+Graphical User Interface:
+
+Developed a clean and interactive GUI using Java Swing, making the application intuitive and easy to navigate.
+
+Data Persistence:
+
+Connected the application to a MySQL database to store and retrieve account and transaction data in real time.
+
+Ensured transactional integrity and consistency for all operations.
+
+Error Handling & Validation:
+
+Implemented input validation and exception handling to prevent invalid transactions and improve reliability.
+
+Security:
+
+Incorporated secure handling of sensitive information like PINs and account balances.
+
+🧠 Technologies Used:
+Java
+
+Java Swing (GUI)
+
+MySQL
+
+JDBC (Java Database Connectivity)
+
+This project showcases how core banking operations can be simulated through a desktop application, combining robust backend data management with a user-friendly front end.
+
